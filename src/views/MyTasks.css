@@ -1,0 +1,74 @@
+.tasks {
+    width: 100vh;
+}
+
+.newTaskAdd {
+    border-top: 1px solid #dedede;
+    padding: 15px 0;
+    z-index: 0;
+    cursor: pointer;
+}
+
+.addTaskIcon {
+    margin-right: 15px;
+}
+
+.newTaskAdd:hover .addTaskIcon {
+    background-color: #d1b1b2;
+    border-radius: 50px;
+}
+
+.calendar {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 55vh;
+}
+
+/* Scroll   */
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #c2b8b7;
+    border-radius: 35px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #e6e6e6;
+}
+
+@media screen and (max-width: 480px) {
+    .calendar {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .calendar {
+        display: none;
+    }
+
+    .scroll {
+        overflow: hidden;
+        overflow-y: scroll;
+        height: 80%;
+        padding-right: 20px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .scroll {
+        overflow: hidden;
+        overflow-y: scroll;
+        height: 80%;
+        padding-right: 20px;
+        margin-right: 10px;
+    }
+}

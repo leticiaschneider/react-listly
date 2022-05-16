@@ -1,0 +1,23 @@
+.space {
+    margin: 10px 5px;
+}
+
+.label {
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.space-around {
+    margin: 10px 8px;
+    margin-bottom: 30px;
+}
+
+.input {
+    width: 98%;
+    border: 1px solid #b1b1b1;
+    border-radius: 8px;
+    padding: 5px;
+    outline: none;
+    resize: none;
+}

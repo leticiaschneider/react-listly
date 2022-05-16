@@ -1,0 +1,69 @@
+ .title {
+   font-family: 'Cookie';
+   font-size: 40px;
+   text-align: center;
+   color: #273454;
+   cursor: context-menu;
+ }
+
+ .sidebar {
+   background-color: #ffffff59;
+   flex-basis: 250px;
+   height: 90vh;
+   border-radius: 15px 0 0 15px;
+ }
+
+ .menu {
+   display: flex;
+ }
+
+ .menu nav {
+   flex-grow: 1;
+ }
+
+ .menu ul {
+   list-style: none;
+   padding: 0;
+ }
+
+ .menu li {
+   display: flex;
+ }
+
+ .menu li a {
+   flex: 1;
+   padding: 10px;
+   margin-bottom: 10px;
+   text-decoration: none;
+   color: #273454;
+   font-size: 1.1rem;
+   font-family: 'Roboto Medium', sans-serif;
+   margin-left: 20px;
+   display: flex;
+ }
+
+ .menu li a:hover {
+   background: #ffffff71;
+   border-radius: 10px 0 0 10px;
+ }
+
+ .active {
+   background-color: #fff;
+   color: #273454b6 !important;
+   margin-left: 20px;
+   border-radius: 10px 0 0 10px;
+ }
+
+ .icon {
+   margin-right: 15px;
+ }
+
+.menuWeb {
+  display: none;
+}
+
+@media screen and (min-width: 769px) {
+  .menuWeb {
+    display: initial;
+  }
+}

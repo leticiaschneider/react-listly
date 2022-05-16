@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Cookie';
+  src: url('./assets/fonts/Cookie-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Urbanist', sans-serif;
+  src: url('./assets/fonts/Urbanist-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-size: 14px;
+  font-family: 'Urbanist', sans-serif;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background: white;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  body {
+    background: rgb(238, 238, 238);
+  }
+}

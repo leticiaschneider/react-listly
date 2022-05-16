@@ -1,0 +1,55 @@
+.border {
+    border: 1px solid #273454;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 8px;
+}
+
+.line {
+    margin: 10px 0;
+    border-bottom: 1px solid #d1b1b2;
+    padding-bottom: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: #273454;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.link:hover {
+    color: #3f4c6e;
+}
+
+.last-project-dash {
+    margin-bottom: 36px;
+}
+
+.pieChart-dash {
+    height: 240px !important;
+    width: 255px !important;
+    margin: 2px auto;
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .scroll-dashboard {
+        overflow-x: hidden;
+        overflow-y: scroll;
+        height: 76vh;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .scroll-dashboard {
+        overflow-x: hidden;
+        overflow-y: scroll;
+        height: 76vh;
+    }
+
+    .content-dashboard {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    
+}

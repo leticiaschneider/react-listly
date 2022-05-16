@@ -1,0 +1,151 @@
+.content {
+  color: black;
+  background-color: #fff;
+  height: 90vh;
+  border-radius: 0px 15px 15px 0px;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 23px;
+  color: #d1b1b2;
+}
+
+h3 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 15px;
+  color: #273454;
+}
+
+.btn {
+  border-radius: 5px;
+  outline: none;
+  margin-left: 10px;
+  padding: 10px 15px;
+  font-size: 14px;
+  color: #4c4c4c;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #c2b8b7;
+  border: none;
+}
+
+.btn-primary:hover, .btn-cancel:hover {
+  background-color: #c2b8b770;
+}
+
+.btn-cancel {
+  border: 1px solid #c2b8b7;
+  background-color: transparent;
+}
+
+.btn-icon {
+  border: none;
+  background: none;
+  padding: 0px;
+  color: #273454;
+  margin-right: 8px;
+  margin-top: 5px;
+}
+
+.container {
+  display: flex;
+  height: 90vh;
+  padding: 25px;
+}
+
+.d-grid {
+  display: grid;
+  justify-items: center;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+.d-flex-align-stretch {
+  width: 100%;
+  align-items: stretch;
+}
+
+.d-flex-justify-between {
+  justify-content: space-between;
+}
+
+.d-flex-wrap {
+  flex-wrap: wrap;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mr-5 {
+  margin-right: 5px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.p-25 {
+  padding: 25px;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.border-line {
+  border: 1px solid #273454;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 8px;
+  width: 100%;
+}
+
+.mb-35 {
+  margin-bottom: 35px;
+}
+
+.pageNotFound {
+  display: flex;
+  height: 82vh;
+  justify-content: center;
+}
+
+.shadow {
+  box-shadow: 11px 7px 10px rgb(193 193 193 / 20%);
+}
+
+@media screen and (max-width: 480px) {
+  .content {
+    margin: 65px 0px 0px 0px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 769px) {
+  .content {
+    margin: 0 auto;
+    border-radius: 8px;
+    margin: 65px 25px 0px 25px;
+    overflow: hidden;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .content {
+    width: 875px;
+    border-radius: 0px 15px 15px 0px;
+    overflow: hidden;
+  }
+}
