@@ -1,7 +1,6 @@
 ## ⚪️ Listly
 Application to manage lists and projects to put into practice everything I learned about ReactJs.
 
-![Colors of project](./src/assets/images/colors.png "Colors of project")
 &nbsp;
 
 ## 💻 Getting Started
